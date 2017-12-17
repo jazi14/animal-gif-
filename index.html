@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Animals GIFs</title>
+	<link rel="stylesheet" type="text/css" href="./assets/style.css">
+	<link rel="stylesheet" type="text/css" href="./assets/style.css">
+	<link rel="stylesheet"  href="https://bootswatch.com/4/slate/bootstrap.css">
+</head>
+<body>
+ <div class="container">
+		<!-- Animals get put here -->
+		<div id="viewAnimal"></div>
+		<!-- Animals get typed in here -->
+		<form id="animalGet">
+      		<label for="animal-input">Add Animal </label>
+      		<input type="text" id="addAnimal">
+      		<br>
+
+      <!-- Button triggers new movie to be added -->
+      <input id="addingAnimal" type="submit" value="Add an Animal">
+
+    </form>
+	<div id="gifs"></div>
+
+	</div>
+    <!-- Your web-app is https, so your scripts need to be too -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ 	<script src="./assets/animal.js" type="text/javascript"></script>
+
+  </body>
+</html>
